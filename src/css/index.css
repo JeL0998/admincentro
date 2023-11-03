@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* CSS for small screens (e.g., mobile) */
+@media (max-width: 640px) {
+    .bg-gray-800 {
+      width: 100%;
+    }
+
+  }
+  
+  /* CSS for larger screens (e.g., desktop) */
+  @media (min-width: 641px) {
+    .bg-gray-800 {
+      width: 25%; 
+    }
+
+  }
+  
